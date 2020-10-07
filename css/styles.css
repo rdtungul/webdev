@@ -1,0 +1,156 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+/*font styles*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+/*css varibles*/
+:root {
+    --navbar-brand: 'Gugi', cursive;
+    /* --navlink-color: #eee; */
+    --hero-title: 'Poppins', sans-serif;
+    --hero-title-size: 3.5rem ;
+    --default-text: 'Montserrat', sans-serif;
+    --default-text-size: 1.2rem;
+    --body-bgcolor: #eee;
+    --pseudo-bgcolor:  #e7dec8;
+    --main-section-bg: #7e8a97;
+    --plain-bg: #f4f4f4;
+}
+
+
+/*css pseudo elements*/
+html::before {
+    background: var(--pseudo-bgcolor);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 63%;
+}
+
+
+/* code for the body section */
+body {
+    /* background: var(--body-bgcolor); */
+    font-family: var(--default-text);
+}
+
+
+/* code for navbar */
+.navbar {
+    padding: 0 !important;
+}
+.navbar-brand {
+    /* font-family: var(--navbar-brand); */
+    font-weight: bold;
+}
+
+
+
+/*code for container fluid*/
+.container-fluid {
+    padding: 3% 15%;
+    /* position: absolute; */
+
+}
+
+
+/* code for h1-h6 */
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--hero-title);
+    font-weight: bold;
+}
+
+
+/*code for hero page*/
+.hero-img {
+    width:144%;
+    height: 80%;
+    display: block;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+/*code for hero title*/
+.hero-title {
+    font-size: var(--hero-title-size);
+}
+
+
+/*code for hero subtitle*/
+.hero-subtitle {
+    font-size: var( --default-text-size);
+}
+
+
+/* code for main section */
+.plain-color {
+    position: absolute;
+    background: var(--plain-bg);
+    /* height: 100px; */
+    width: 100%;
+    padding: 5%;
+}
+
+
+/* code for feature section */
+.dark-section {
+    position: relative;
+    z-index: 1;
+    background-color: #1a1c20;
+}
+.feature-section {
+    text-align: center;
+    padding: 10% 5%;
+    color: #eee;
+}
+.icon:hover {
+    color: #4c4c4c;
+}
+
+
+
+/* code for course section */
+.course-text {
+    text-align: center;
+}
+.course-column {
+    text-align: center;
+    margin: 5% 0 !important;
+}
+.card-header {
+    font-size: 1rem;
+}
+.course-btn {
+    width: 100% !important;
+}
+
+
+
+/*mobile responsive*/
+@media only screen and (max-width: 1178px) {
+  body {
+    text-align: center !important;
+    background: var(--pseudo-bgcolor);
+  }
+  .hero-img {
+      margin-top: 10%;
+      width: 100%;
+  }
+  .feature-section {
+    padding: 5%;
+}
+}
+
+@media only screen and (max-width: 783px) {
+    .course-column {
+      margin: 3% !important;
+  }
+  }
+

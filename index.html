@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <!-- fontawesome cdn for css -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <!--this is the start of navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="">WEBDEV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="#course">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--this is the finish of navigation bar-->
+        
+
+        <!--this for the hero section-->
+        <section id="home">
+        <div class="row hero-row mt-5">
+            <!--this is for the hero title-->
+            <div class="col-lg-6 col-md-7">
+                <h1 class="hero-title">Let's Learn Web <br> <span class="devt"> Development <br>and Design </span></h1>
+                <p class="hero-subtitle mt-3">Bachelor of Science in Information Technology <br>under College of Business Administration.</p>
+                <button class="btn hero-btn mt-3 btn-info btn-lg">Learn more</button>
+            </div>
+        
+
+            <!--this is for the hero image-->
+            <div class="col-lg-6 col-md-5">
+                <img class="hero-img mt-4 ml-auto" src="https://images.pexels.com/photos/3751519/pexels-photo-3751519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+            </div>
+        </div>
+            
+    </div>
+</section>
+
+
+<!-- INFORMATION SECTION -->
+<section>
+    <div id="features" class="dark-section">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- check icon -->
+                <div class="feature-section col-lg-4 col-md-6">
+                    <i class="icon far fa-check-circle fa-4x"></i>
+                    <h3 class="feature-title mt-2">Easy to enroll.</h3>
+                    <p class="feature-text">So easy to enroll, even at home you could do it.</p>
+                </div>
+                <!-- round icon -->
+                <div class="feature-section col-lg-4 col-md-6">
+                    <i class="icon fad fa-bullseye fa-4x"></i>
+                    <h3 class="feature-title mt-2">Elite Instructors.</h3>
+                    <p class="feature-text">We have all the Teachers, the greatest Teachers.</p>
+                </div>
+                <!-- heart icon -->
+                <div class="feature-section col-lg-4 col-md-12">
+                    <i class="icon fas fa-heart fa-4x"></i>
+                    <h3 class="feature-title mt-2">Guaranteed to work.</h3>
+                    <p class="feature-text">Find the course that you love.</p>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- COURSE SECTION -->
+    <section id="course" class="plain-color">
+    <div class="container-fluid2">
+        <h1 class="course-text">Courses that are Offered in College</h1>
+
+        <div class="row">
+            <div class="course-column col-lg-4 col-md-6 col-sm-12">
+            <div class="card border-secondary">
+                <div class="card-header"><h4>B.S. Information Technology<h4></div>
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">Course Specialization</h5>
+                  <p class="card-text">Web Development</p>
+                  <p class="card-text">Graphic Design</p>
+                  <p class="card-text">Networking</p>
+                  <button class="btn btn-outline-dark course-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="course-column col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-secondary">
+                    <div class="card-header"><h4>B.S. Computer Science<h4></div>
+                    <div class="card-body text-secondary">
+                      <h5 class="card-title">Course Specialization</h5>
+                      <p class="card-text">Software Engineering</p>
+                      <p class="card-text">Network Programming</p>
+                      <p class="card-text">Data Science</p>
+                      <button class="btn btn-outline-dark course-btn">Enroll Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="course-column col-lg-4 col-md-12">
+                    <div class="card border-secondary">
+                        <div class="card-header"><h4>Other Courses Offered<h4></div>
+                        <div class="card-body text-secondary">
+                          <h5 class="card-title">College Courses</h5>
+                          <p class="card-text">Accountancy</p>
+                          <p class="card-text">Engineering</p>
+                          <p class="card-text">Medical</p>
+                          <button class="btn btn-dark course-btn">More Courses</button>
+                        </div>
+                      </div>
+                    </div>
+
+    </section>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
